@@ -55,12 +55,12 @@ Alternatively, you can visit <a href="https://easy-raincoat-wasp.cyclic.app">her
 
 ### API Endpoints
 
-GET /transactions - retrieve all transactions for selected month
-GET /transactions?page=1&month=January&search=Samsung - retrieve all transactions according to different queries
-GET /transactions/stats?month=January - retrieve sales statistics for selected month
-GET /transactions/salesDistribution?month=January - retrieve price distribution across different price range for selected month
-GET /transactions/categoriesDistribution?month=January - retrieve category distribution across different price range for selected month
-GET /transactions/analysis?month=January - retrieve stats, price distribution, and category distribution for selected month, all in one request
+-   GET /transactions - retrieve all transactions for selected month
+-   GET /transactions?page=1&month=January&search=Samsung - retrieve all transactions according to different queries
+-   GET /transactions/stats?month=January - retrieve sales statistics for selected month
+-   GET /transactions/salesDistribution?month=January - retrieve price distribution across different price range for selected month
+-   GET /transactions/categoriesDistribution?month=January - retrieve category distribution across different price range for selected month
+-   GET /transactions/analysis?month=January - retrieve stats, price distribution, and category distribution for selected month, all in one request
 
 ### Technology Stack
 
