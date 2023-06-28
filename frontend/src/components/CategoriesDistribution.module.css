@@ -1,0 +1,13 @@
+.categoriesDistribution {
+	margin: 50px auto;
+}
+
+.categoriesDistribution>h1 {
+	text-align: left;
+	font-size: 1.3rem;
+}
+
+.categoriesDistribution>canvas {
+	width: 50%;
+	margin: auto;
+}

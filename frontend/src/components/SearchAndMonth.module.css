@@ -1,0 +1,31 @@
+.searchAndMonth {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.searchAndMonth input {
+	background-color: #f8de7e;
+	padding: 13px;
+	border-radius: 100px;
+	font-size: medium;
+	border: none;
+}
+
+.searchAndMonth div {
+	background-color: #f8de7e;
+	padding: 13px;
+	border-radius: 10px;
+	width: 150px;
+}
+
+.searchAndMonth select {
+	background-color: #f8de7e;
+	border: none;
+	font-size: medium;
+	width: 100%;
+}
+
+.searchAndMonth select:focus {
+	outline: none;
+}

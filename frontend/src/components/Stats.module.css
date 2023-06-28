@@ -1,0 +1,20 @@
+.stats {
+	margin: 30px auto;
+}
+
+.stats>h1 {
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+.stats>table {
+	background-color: #f8de7e;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: left;
+	width: 50%;
+}
+
+.stats>table>tr>td {
+	padding: 5px;
+}

@@ -1,0 +1,8 @@
+.salesDistribution {
+	margin: 50px auto;
+}
+
+.salesDistribution>h1 {
+	font-size: 1.3rem;
+	text-align: left;
+}
