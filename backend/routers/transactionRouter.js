@@ -32,7 +32,10 @@ transactionRouter.get("/", async (req, res) => {
 		let filter = {};
 		if (search) {
 			filter = {
-				$text: { $search: search }
+				$text: { $search: search },
+				$expr: {
+					$eq: [{ $month: "$dateOfSale" }, months.indexOf(month) + 1]
+				}
 			};
 		} else {
 			filter = {
