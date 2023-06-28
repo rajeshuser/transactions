@@ -101,7 +101,7 @@ transactionRouter.get("/salesDistribution", async (req, res) => {
 			salesDistribution.push({
 				range: {
 					from: i === 100 ? 0 : i - 100 + 1,
-					to: i === 1000 ? 10 ** 10 : i
+					to: i === 1000 ? "above" : i
 				},
 				count: 0
 			});
