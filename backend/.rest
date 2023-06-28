@@ -1,0 +1,23 @@
+###
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/transactions?search=John
+
+###
+GET http://localhost:3000/transactions?page=8&perPage=7
+
+###
+GET http://localhost:3000/transactions?search=silicon
+
+###
+GET http://localhost:3000/transactions/stats?month=May
+
+###
+GET http://localhost:3000/transactions/salesDistribution?month=March
+
+###
+GET http://localhost:3000/transactions/categoriesDistribution?month=May
+
+###
+GET http://localhost:3000/transactions/analysis?month=May
