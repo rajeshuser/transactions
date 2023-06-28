@@ -17,16 +17,12 @@ export default function CategoriesDistribution({ month }) {
 		ref.current.chart = new Chart(ref.current.canvas, {
 			type: "pie",
 			data: {
-				labels: ["Red", "Blue", "Yellow"],
+				labels: [],
 				datasets: [
 					{
-						label: "My First Dataset",
-						data: [300, 50, 100],
-						backgroundColor: [
-							"rgb(255, 99, 132)",
-							"rgb(54, 162, 235)",
-							"rgb(255, 205, 86)"
-						],
+						label: "Categories distribution",
+						data: [],
+						backgroundColor: [],
 						hoverOffset: 1
 					}
 				]
@@ -55,6 +51,7 @@ export default function CategoriesDistribution({ month }) {
 	function updateChart(data) {
 		ref.current.chart.data.labels = data.map((item) => item.category);
 		ref.current.chart.data.datasets[0].data = data.map((item) => item.count);
+		ref.current.chart.data.datasets[0].backgroundColor = data.map((item) => randomColor());
 		ref.current.chart.update();
 	}
 
@@ -64,4 +61,11 @@ export default function CategoriesDistribution({ month }) {
 			<canvas ref={handleRef}>Categories Distribution</canvas>
 		</div>
 	);
+}
+
+function randomColor() {
+	const red = Math.floor(Math.random() * 255);
+	const green = Math.floor(Math.random() * 255);
+	const blue = Math.floor(Math.random() * 255);
+	return `rgb(${red},${green},${blue})`;
 }
