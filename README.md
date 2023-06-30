@@ -13,7 +13,7 @@ This is a full stack project which includes a backend that serves product transa
 -   Distribution of transaction across different price range for selected month
 -   Distribution of transaction across different categories for selected month
 
-## design decisions or assumptions
+## Design decisions or assumptions
 
 -   Frontend part of the project is designed and implemented for dynamic data
 -   Backend part of the project is designed and implemented get request only
@@ -68,3 +68,7 @@ Alternatively, you can visit <a href="https://easy-raincoat-wasp.cyclic.app">her
 -   Express.js
 -   MongoDB
 -   Mongoose
+
+# Video
+
+Please click <a href="https://drive.google.com/file/d/1ebg7YvUI3Tx0v_4LmDaw9NiwGCYnzHkv/view?usp=drive_link">here</a> for code walkthrough
